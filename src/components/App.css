@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+  
+}
+.background{
+  margin-top:2px;
+  margin-left: 2px;
+  background:url(https://w0.peakpx.com/wallpaper/251/299/HD-wallpaper-white-triangle-texture-background-elegant-luxury-pattern-premium.jpg);
+  height:50vh;
+  background-size: cover;
+  clip-path: polygon(0 0,100% 0,20% 40%,0 80%);
+}
+.logo{
+  padding-top:20px;
+  margin-left:20px;
+
+}
+.clg_name{
+    margin-top:-10px;
+    padding-left: 10px;
+}
+.full{
+  margin-top:-170px;
+  margin-left:200px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #115b04, #008607 48%, #f9f5f2);
+}
+
+.home-lr{
+  color:black;
+  text-align:right;
+  margin-top: -300px;
+  margin-right: 10px;
+}
+.image1{
+  height:100vh;
+  width: 33%;
+  float:left;
+
+}
+.image2{
+  height:100vh;
+  width: 33%;
+  float:left;
+
+}
+.image3{
+  height:100vh;
+  width: 33%;
+  float:right;
+
+}
+
+
+
+.each-slide-effect > div {
+  max-width: 50%;;
+  display: flex;
+  margin-left: 400px;;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+/* .each-slide-effect span {
+  padding: 10px;
+  font-size: 20px;
+  background: #efefef;
+  text-align:center;
+ 
+} */
+.main-footer {
+  color: white;
+  background-color: #5b5757;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+ 
+  width: 100%;
+}
+
